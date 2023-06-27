@@ -161,11 +161,10 @@
 
 main{
     /* background-color: blue; */
-    width: 95%;
-    margin: 0 auto;
+    width: 90%;
     padding-top: 30px;
     text-align: center;
-    margin: 150px 0px;
+    margin: 150px auto;
 }
 
 main .main-h2{
@@ -205,6 +204,7 @@ main .main-div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
+    gap: 25px;
     /* justify-content: space-between; */
     /* background-color: red; */
 
