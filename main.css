@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(59, 131, 255);
     position: fixed;
     top: 0;
     left: 0;
@@ -27,6 +27,7 @@
 
 .nav-bar h1{
     font-size: 2em;
+    color: #fff;
 }
 
 .nav-bar .nav-ul{
@@ -41,7 +42,7 @@
 
 .nav-bar .nav-ul .nav-li a{
     text-decoration: none;
-    color: rgb(101, 101, 101);
+    color: rgb(255, 255, 255);
 
 }
 
@@ -66,7 +67,7 @@
 }
 
 .nav-bar .nav-div .n2{
-    background-color: black;
+    background-color: rgb(223, 223, 223);
 }
 
 .nav-bar .nav-div .n1 a{
@@ -74,7 +75,7 @@
 }
 
 .nav-bar .nav-div .n2 a{
-    color: #fff;
+    color: black;
 }
 
 .nav-bar .nav-div button a{
@@ -407,8 +408,9 @@ main .main-div div img{
 /* footer */
 
 footer{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(59, 131, 255);
     padding: 30px 40px 0 40px;
+    color: #fff;
 }
 
 footer .footer-header{
@@ -436,7 +438,7 @@ footer .footer-header .footer-nav div{
 
 footer .footer-header .footer-nav div a{
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 
@@ -460,6 +462,6 @@ footer .footer-footer{
     font-size: var(--small-size);
     font-weight: var(--weight-bold);
     padding: 20px 0;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgb(42, 42, 42);
     /* margin-top: 10px; */
 }
